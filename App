@@ -1,0 +1,20 @@
+package javaApp1;
+
+import java.util.Arrays;
+
+public class App {
+
+	public static void main(String[] args) {
+		
+		PersonNames namelist = new PersonNames();
+		
+		for (String name : namelist.getNames()) {
+			
+			Arrays.sort(namelist.getNames());
+			System.out.println(new StringBuilder(name).reverse().toString());
+			
+		}
+
+	}
+
+}
