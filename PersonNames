@@ -1,7 +1,5 @@
 package javaApp1;
 
-import java.util.Arrays;
-
 public class PersonNames {
 	
 	private String[] names = new String[] {
@@ -20,8 +18,4 @@ public class PersonNames {
 		this.names = names;
 	}
 
-	@Override
-	public String toString() {
-		return Arrays.toString(names);
-	}
 }
